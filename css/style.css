@@ -1,0 +1,57 @@
+html, body{
+	margin: 0;
+	width: 100%;
+}
+
+#main-div{
+	width: 100%;
+	text-align: center;
+}
+
+.heading-div{
+	text-align: center;
+}
+
+.table{
+	border: 2px solid #dee2e6;
+}
+
+
+.table td, .table th {
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.container {
+  width: 80%;
+  margin: 20px auto;
+}
+
+.p {
+  text-align: center;
+  font-size: 14px;
+  padding-top: 140px;
+}
+
+.chart-td{
+	width: 180px;
+	height: 100px;
+	padding-bottom: 0px !important;
+}
+
+.chart-td > canvas{
+	width: 100% !important;
+	height: 100% !important;
+}
+
+@media screen and (max-width: 640px) {
+	.chart-td{
+		width: 180px;
+		height: 100px;
+		padding-bottom: 0px !important;
+	}
+	.container{
+		width: 95% !important;
+		padding: 0 !important;
+	}	
+}
